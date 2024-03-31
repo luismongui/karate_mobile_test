@@ -1,28 +1,28 @@
-13:32:54.051 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-13:32:54.698 [main] DEBUG com.intuit.karate - request:
+14:00:15.658 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:00:16.353 [main] DEBUG com.intuit.karate - request:
 1 > POST http://localhost:4723/wd/hub/session
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 294
+1 > Content-Length: 324
 1 > Host: localhost:4723
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
 1 > Accept-Encoding: gzip,deflate
-{"desiredCapabilities":{"app":"https:\/\/github.com\/babusekaran\/droidAction\/raw\/main\/build\/UiDemo.apk","newCommandTimeout":300,"platformVersion":"9.0","platformName":"Android","connectHardwareKeyboard":true,"deviceName":"emulator-5554","avd":"Pixel2_PIE","automationName":"UiAutomator2"}}
+{"desiredCapabilities":{"app":"\/Users\/luismongui\/Documents\/workspace\/POC_MOBILE\/mobile-test\/src\/test\/java\/resources\/UiDemo.apk","newCommandTimeout":300,"platformVersion":"9.0","platformName":"Android","connectHardwareKeyboard":true,"deviceName":"emulator-5554","avd":"Pixel2_PIE","automationName":"UiAutomator2"}}
 
-13:33:08.738 [main] DEBUG com.intuit.karate - response time in milliseconds: 14034
+14:00:30.716 [main] DEBUG com.intuit.karate - response time in milliseconds: 14359
 1 < 200
 1 < X-Powered-By: Express
 1 < Vary: X-HTTP-Method-Override
 1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 1103
-1 < ETag: W/"44f-NkAg1v80KGlkrEtC+0eZwqoN3gQ"
-1 < Date: Sun, 31 Mar 2024 18:33:08 GMT
+1 < Content-Length: 1157
+1 < ETag: W/"485-V/v9ka6kVL8nlxoBjI8fXGogYu0"
+1 < Date: Sun, 31 Mar 2024 19:00:30 GMT
 1 < Connection: keep-alive
-{"value":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"https://github.com/babusekaran/droidAction/raw/main/build/UiDemo.apk","newCommandTimeout":300,"platformVersion":"9.0","platformName":"Android","connectHardwareKeyboard":true,"deviceName":"emulator-5554","avd":"Pixel2_PIE","automationName":"UiAutomator2"},"app":"https://github.com/babusekaran/droidAction/raw/main/build/UiDemo.apk","newCommandTimeout":300,"platformVersion":"13","platformName":"Android","connectHardwareKeyboard":true,"deviceName":"emulator-5554","avd":"Pixel2_PIE","automationName":"UiAutomator2","deviceUDID":"emulator-5554","appPackage":"com.bs.droidaction","deviceApiLevel":33,"deviceScreenSize":"1440x2560","deviceScreenDensity":560,"deviceModel":"sdk_gphone64_arm64","deviceManufacturer":"Google","pixelRatio":3.5,"statBarHeight":84,"viewportRect":{"left":0,"top":84,"width":1440,"height":2392}},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/luismongui/Documents/workspace/POC_MOBILE/mobile-test/src/test/java/resources/UiDemo.apk","newCommandTimeout":300,"platformVersion":"9.0","platformName":"Android","connectHardwareKeyboard":true,"deviceName":"emulator-5554","avd":"Pixel2_PIE","automationName":"UiAutomator2"},"app":"/Users/luismongui/Documents/workspace/POC_MOBILE/mobile-test/src/test/java/resources/UiDemo.apk","newCommandTimeout":300,"platformVersion":"13","platformName":"Android","connectHardwareKeyboard":true,"deviceName":"emulator-5554","avd":"Pixel2_PIE","automationName":"UiAutomator2","deviceUDID":"emulator-5554","appPackage":"com.bs.droidaction","deviceApiLevel":33,"deviceScreenSize":"1440x2560","deviceScreenDensity":560,"deviceModel":"sdk_gphone64_arm64","deviceManufacturer":"Google","pixelRatio":3.5,"statBarHeight":84,"viewportRect":{"left":0,"top":84,"width":1440,"height":2392}},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:08.748 [main] DEBUG c.i.k.d.appium.android_1711909974545 - init session id: 26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4
-13:33:08.901 [main] DEBUG com.intuit.karate - request:
-2 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:30.722 [main] DEBUG c.i.k.d.appium.android_1711911616201 - init session id: 5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319
+14:00:30.845 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 2 > Content-Type: application/json; charset=UTF-8
 2 > Content-Length: 64
 2 > Host: localhost:4723
@@ -31,19 +31,19 @@
 2 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/showTextCheckBox"}
 
-13:33:09.619 [main] DEBUG com.intuit.karate - response time in milliseconds: 717
+14:00:31.109 [main] DEBUG com.intuit.karate - response time in milliseconds: 264
 2 < 200
 2 < X-Powered-By: Express
 2 < Vary: X-HTTP-Method-Override
 2 < Content-Type: application/json; charset=utf-8
 2 < Content-Length: 199
-2 < ETag: W/"c7-/QoPniw3i7BZNOQgIMEj/W2aqOc"
-2 < Date: Sun, 31 Mar 2024 18:33:09 GMT
+2 < ETag: W/"c7-AY79iG/5T52yf98dIOeewm/we5Q"
+2 < Date: Sun, 31 Mar 2024 19:00:31 GMT
 2 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff0000000f","ELEMENT":"00000000-0000-0206-ffff-ffff0000000f"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff0000000f","ELEMENT":"00000000-0000-023c-ffff-ffff0000000f"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:09.622 [main] DEBUG com.intuit.karate - request:
-3 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element/00000000-0000-0206-ffff-ffff0000000f/click
+14:00:31.112 [main] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element/00000000-0000-023c-ffff-ffff0000000f/click
 3 > Content-Type: application/json; charset=UTF-8
 3 > Content-Length: 2
 3 > Host: localhost:4723
@@ -52,19 +52,19 @@
 3 > Accept-Encoding: gzip,deflate
 {}
 
-13:33:09.698 [main] DEBUG com.intuit.karate - response time in milliseconds: 75
+14:00:31.162 [main] DEBUG com.intuit.karate - response time in milliseconds: 49
 3 < 200
 3 < X-Powered-By: Express
 3 < Vary: X-HTTP-Method-Override
 3 < Content-Type: application/json; charset=utf-8
 3 < Content-Length: 76
-3 < ETag: W/"4c-gryekC1D06a3cV5cS8KTa77jLIY"
-3 < Date: Sun, 31 Mar 2024 18:33:09 GMT
+3 < ETag: W/"4c-VHlHDwX0uEPHWmbaUEb1sCYm2Mk"
+3 < Date: Sun, 31 Mar 2024 19:00:31 GMT
 3 < Connection: keep-alive
-{"value":null,"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":null,"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:09.703 [main] DEBUG com.intuit.karate - request:
-4 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:31.166 [main] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 4 > Content-Type: application/json; charset=UTF-8
 4 > Content-Length: 63
 4 > Host: localhost:4723
@@ -73,19 +73,19 @@
 4 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/showTextOnDelay"}
 
-13:33:10.353 [main] DEBUG com.intuit.karate - response time in milliseconds: 650
+14:00:31.833 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
 4 < 200
 4 < X-Powered-By: Express
 4 < Vary: X-HTTP-Method-Override
 4 < Content-Type: application/json; charset=utf-8
 4 < Content-Length: 199
-4 < ETag: W/"c7-pk6tGzyP2PNfb0Juoh+v4BUPHFE"
-4 < Date: Sun, 31 Mar 2024 18:33:10 GMT
+4 < ETag: W/"c7-6F5RZ97PcSpFcFmIYpgTgvtaBsY"
+4 < Date: Sun, 31 Mar 2024 19:00:31 GMT
 4 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff00000010","ELEMENT":"00000000-0000-0206-ffff-ffff00000010"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff00000010","ELEMENT":"00000000-0000-023c-ffff-ffff00000010"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:10.355 [main] DEBUG com.intuit.karate - request:
-5 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element/00000000-0000-0206-ffff-ffff00000010/clear
+14:00:31.836 [main] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element/00000000-0000-023c-ffff-ffff00000010/clear
 5 > Content-Type: application/json; charset=UTF-8
 5 > Content-Length: 2
 5 > Host: localhost:4723
@@ -94,19 +94,19 @@
 5 > Accept-Encoding: gzip,deflate
 {}
 
-13:33:10.391 [main] DEBUG com.intuit.karate - response time in milliseconds: 35
+14:00:31.852 [main] DEBUG com.intuit.karate - response time in milliseconds: 15
 5 < 200
 5 < X-Powered-By: Express
 5 < Vary: X-HTTP-Method-Override
 5 < Content-Type: application/json; charset=utf-8
 5 < Content-Length: 76
-5 < ETag: W/"4c-gryekC1D06a3cV5cS8KTa77jLIY"
-5 < Date: Sun, 31 Mar 2024 18:33:10 GMT
+5 < ETag: W/"4c-VHlHDwX0uEPHWmbaUEb1sCYm2Mk"
+5 < Date: Sun, 31 Mar 2024 19:00:31 GMT
 5 < Connection: keep-alive
-{"value":null,"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":null,"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:10.399 [main] DEBUG com.intuit.karate - request:
-6 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:31.855 [main] DEBUG com.intuit.karate - request:
+6 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 6 > Content-Type: application/json; charset=UTF-8
 6 > Content-Length: 63
 6 > Host: localhost:4723
@@ -115,19 +115,19 @@
 6 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/showTextOnDelay"}
 
-13:33:10.912 [main] DEBUG com.intuit.karate - response time in milliseconds: 512
+14:00:31.873 [main] DEBUG com.intuit.karate - response time in milliseconds: 18
 6 < 200
 6 < X-Powered-By: Express
 6 < Vary: X-HTTP-Method-Override
 6 < Content-Type: application/json; charset=utf-8
 6 < Content-Length: 199
-6 < ETag: W/"c7-pk6tGzyP2PNfb0Juoh+v4BUPHFE"
-6 < Date: Sun, 31 Mar 2024 18:33:10 GMT
+6 < ETag: W/"c7-6F5RZ97PcSpFcFmIYpgTgvtaBsY"
+6 < Date: Sun, 31 Mar 2024 19:00:31 GMT
 6 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff00000010","ELEMENT":"00000000-0000-0206-ffff-ffff00000010"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff00000010","ELEMENT":"00000000-0000-023c-ffff-ffff00000010"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:10.914 [main] DEBUG com.intuit.karate - request:
-7 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element/00000000-0000-0206-ffff-ffff00000010/value
+14:00:31.876 [main] DEBUG com.intuit.karate - request:
+7 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element/00000000-0000-023c-ffff-ffff00000010/value
 7 > Content-Type: application/json; charset=UTF-8
 7 > Content-Length: 16
 7 > Host: localhost:4723
@@ -136,19 +136,19 @@
 7 > Accept-Encoding: gzip,deflate
 {"text":"10000"}
 
-13:33:10.947 [main] DEBUG com.intuit.karate - response time in milliseconds: 33
+14:00:32.391 [main] DEBUG com.intuit.karate - response time in milliseconds: 515
 7 < 200
 7 < X-Powered-By: Express
 7 < Vary: X-HTTP-Method-Override
 7 < Content-Type: application/json; charset=utf-8
 7 < Content-Length: 76
-7 < ETag: W/"4c-gryekC1D06a3cV5cS8KTa77jLIY"
-7 < Date: Sun, 31 Mar 2024 18:33:10 GMT
+7 < ETag: W/"4c-VHlHDwX0uEPHWmbaUEb1sCYm2Mk"
+7 < Date: Sun, 31 Mar 2024 19:00:32 GMT
 7 < Connection: keep-alive
-{"value":null,"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":null,"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:10.953 [main] DEBUG com.intuit.karate - request:
-8 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:32.397 [main] DEBUG com.intuit.karate - request:
+8 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 8 > Content-Type: application/json; charset=UTF-8
 8 > Content-Length: 59
 8 > Host: localhost:4723
@@ -157,19 +157,19 @@
 8 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/editTextBox"}
 
-13:33:11.468 [main] DEBUG com.intuit.karate - response time in milliseconds: 515
+14:00:32.909 [main] DEBUG com.intuit.karate - response time in milliseconds: 511
 8 < 200
 8 < X-Powered-By: Express
 8 < Vary: X-HTTP-Method-Override
 8 < Content-Type: application/json; charset=utf-8
 8 < Content-Length: 199
-8 < ETag: W/"c7-jaBUS228++Ezd4xOv/01+8q72rA"
-8 < Date: Sun, 31 Mar 2024 18:33:11 GMT
+8 < ETag: W/"c7-zp5AYDvKlG+JWrRxCi3Ayi7rlLQ"
+8 < Date: Sun, 31 Mar 2024 19:00:32 GMT
 8 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff0000000c","ELEMENT":"00000000-0000-0206-ffff-ffff0000000c"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff0000000c","ELEMENT":"00000000-0000-023c-ffff-ffff0000000c"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:11.470 [main] DEBUG com.intuit.karate - request:
-9 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element/00000000-0000-0206-ffff-ffff0000000c/value
+14:00:32.913 [main] DEBUG com.intuit.karate - request:
+9 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element/00000000-0000-023c-ffff-ffff0000000c/value
 9 > Content-Type: application/json; charset=UTF-8
 9 > Content-Length: 20
 9 > Host: localhost:4723
@@ -178,19 +178,19 @@
 9 > Accept-Encoding: gzip,deflate
 {"text":"KarateDSL"}
 
-13:33:11.501 [main] DEBUG com.intuit.karate - response time in milliseconds: 30
+14:00:32.952 [main] DEBUG com.intuit.karate - response time in milliseconds: 38
 9 < 200
 9 < X-Powered-By: Express
 9 < Vary: X-HTTP-Method-Override
 9 < Content-Type: application/json; charset=utf-8
 9 < Content-Length: 76
-9 < ETag: W/"4c-gryekC1D06a3cV5cS8KTa77jLIY"
-9 < Date: Sun, 31 Mar 2024 18:33:11 GMT
+9 < ETag: W/"4c-VHlHDwX0uEPHWmbaUEb1sCYm2Mk"
+9 < Date: Sun, 31 Mar 2024 19:00:32 GMT
 9 < Connection: keep-alive
-{"value":null,"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":null,"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:11.506 [main] DEBUG com.intuit.karate - request:
-10 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:32.957 [main] DEBUG com.intuit.karate - request:
+10 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 10 > Content-Type: application/json; charset=UTF-8
 10 > Content-Length: 64
 10 > Host: localhost:4723
@@ -199,19 +199,19 @@
 10 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/showTextCheckBox"}
 
-13:33:12.019 [main] DEBUG com.intuit.karate - response time in milliseconds: 513
+14:00:33.471 [main] DEBUG com.intuit.karate - response time in milliseconds: 513
 10 < 200
 10 < X-Powered-By: Express
 10 < Vary: X-HTTP-Method-Override
 10 < Content-Type: application/json; charset=utf-8
 10 < Content-Length: 199
-10 < ETag: W/"c7-/QoPniw3i7BZNOQgIMEj/W2aqOc"
-10 < Date: Sun, 31 Mar 2024 18:33:12 GMT
+10 < ETag: W/"c7-AY79iG/5T52yf98dIOeewm/we5Q"
+10 < Date: Sun, 31 Mar 2024 19:00:33 GMT
 10 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff0000000f","ELEMENT":"00000000-0000-0206-ffff-ffff0000000f"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff0000000f","ELEMENT":"00000000-0000-023c-ffff-ffff0000000f"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:12.021 [main] DEBUG com.intuit.karate - request:
-11 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element/00000000-0000-0206-ffff-ffff0000000f/click
+14:00:33.473 [main] DEBUG com.intuit.karate - request:
+11 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element/00000000-0000-023c-ffff-ffff0000000f/click
 11 > Content-Type: application/json; charset=UTF-8
 11 > Content-Length: 2
 11 > Host: localhost:4723
@@ -220,19 +220,19 @@
 11 > Accept-Encoding: gzip,deflate
 {}
 
-13:33:12.064 [main] DEBUG com.intuit.karate - response time in milliseconds: 43
+14:00:33.514 [main] DEBUG com.intuit.karate - response time in milliseconds: 40
 11 < 200
 11 < X-Powered-By: Express
 11 < Vary: X-HTTP-Method-Override
 11 < Content-Type: application/json; charset=utf-8
 11 < Content-Length: 76
-11 < ETag: W/"4c-gryekC1D06a3cV5cS8KTa77jLIY"
-11 < Date: Sun, 31 Mar 2024 18:33:12 GMT
+11 < ETag: W/"4c-VHlHDwX0uEPHWmbaUEb1sCYm2Mk"
+11 < Date: Sun, 31 Mar 2024 19:00:33 GMT
 11 < Connection: keep-alive
-{"value":null,"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":null,"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:12.073 [main] DEBUG com.intuit.karate - request:
-12 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:33.525 [main] DEBUG com.intuit.karate - request:
+12 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 12 > Content-Type: application/json; charset=UTF-8
 12 > Content-Length: 60
 12 > Host: localhost:4723
@@ -241,21 +241,21 @@
 12 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:12.715 [main] DEBUG com.intuit.karate - response time in milliseconds: 640
+14:00:34.149 [main] DEBUG com.intuit.karate - response time in milliseconds: 624
 12 < 500
 12 < X-Powered-By: Express
 12 < Vary: X-HTTP-Method-Override
 12 < Content-Type: application/json; charset=utf-8
 12 < Content-Length: 164
-12 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-12 < Date: Sun, 31 Mar 2024 18:33:12 GMT
+12 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+12 < Date: Sun, 31 Mar 2024 19:00:34 GMT
 12 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:12.716 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:12.717 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:13.724 [main] DEBUG com.intuit.karate - request:
-13 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:34.150 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:34.151 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:35.154 [main] DEBUG com.intuit.karate - request:
+13 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 13 > Content-Type: application/json; charset=UTF-8
 13 > Content-Length: 60
 13 > Host: localhost:4723
@@ -264,22 +264,22 @@
 13 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:13.768 [main] DEBUG com.intuit.karate - response time in milliseconds: 44
+14:00:35.206 [main] DEBUG com.intuit.karate - response time in milliseconds: 52
 13 < 500
 13 < X-Powered-By: Express
 13 < Vary: X-HTTP-Method-Override
 13 < Content-Type: application/json; charset=utf-8
 13 < Content-Length: 164
-13 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-13 < Date: Sun, 31 Mar 2024 18:33:13 GMT
+13 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+13 < Date: Sun, 31 Mar 2024 19:00:35 GMT
 13 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:13.770 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:13.770 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:13.771 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : #com.bs.droidaction:id/nameTextView
-13:33:13.772 [main] DEBUG com.intuit.karate - request:
-14 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:35.207 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:35.207 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:35.208 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : #com.bs.droidaction:id/nameTextView
+14:00:35.209 [main] DEBUG com.intuit.karate - request:
+14 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 14 > Content-Type: application/json; charset=UTF-8
 14 > Content-Length: 74
 14 > Host: localhost:4723
@@ -288,21 +288,21 @@
 14 > Accept-Encoding: gzip,deflate
 {"using":"xpath","value":"\/\/android.widget.TextView[@text='KarateDSL']"}
 
-13:33:14.010 [main] DEBUG com.intuit.karate - response time in milliseconds: 238
+14:00:35.340 [main] DEBUG com.intuit.karate - response time in milliseconds: 131
 14 < 500
 14 < X-Powered-By: Express
 14 < Vary: X-HTTP-Method-Override
 14 < Content-Type: application/json; charset=utf-8
 14 < Content-Length: 164
-14 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-14 < Date: Sun, 31 Mar 2024 18:33:14 GMT
+14 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+14 < Date: Sun, 31 Mar 2024 19:00:35 GMT
 14 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:14.010 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:14.010 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:15.012 [main] DEBUG com.intuit.karate - request:
-15 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:35.341 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:35.341 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:36.348 [main] DEBUG com.intuit.karate - request:
+15 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 15 > Content-Type: application/json; charset=UTF-8
 15 > Content-Length: 74
 15 > Host: localhost:4723
@@ -311,23 +311,23 @@
 15 > Accept-Encoding: gzip,deflate
 {"using":"xpath","value":"\/\/android.widget.TextView[@text='KarateDSL']"}
 
-13:33:15.087 [main] DEBUG com.intuit.karate - response time in milliseconds: 74
+14:00:36.435 [main] DEBUG com.intuit.karate - response time in milliseconds: 86
 15 < 500
 15 < X-Powered-By: Express
 15 < Vary: X-HTTP-Method-Override
 15 < Content-Type: application/json; charset=utf-8
 15 < Content-Length: 164
-15 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-15 < Date: Sun, 31 Mar 2024 18:33:15 GMT
+15 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+15 < Date: Sun, 31 Mar 2024 19:00:36 GMT
 15 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:15.088 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:15.088 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:15.089 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : //android.widget.TextView[@text='KarateDSL']
-13:33:15.090 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - waitUntil (function) - retry #1
-13:33:16.097 [main] DEBUG com.intuit.karate - request:
-16 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:36.436 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:36.436 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:36.437 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : //android.widget.TextView[@text='KarateDSL']
+14:00:36.437 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - waitUntil (function) - retry #1
+14:00:37.442 [main] DEBUG com.intuit.karate - request:
+16 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 16 > Content-Type: application/json; charset=UTF-8
 16 > Content-Length: 60
 16 > Host: localhost:4723
@@ -336,21 +336,21 @@
 16 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:16.147 [main] DEBUG com.intuit.karate - response time in milliseconds: 50
+14:00:37.481 [main] DEBUG com.intuit.karate - response time in milliseconds: 38
 16 < 500
 16 < X-Powered-By: Express
 16 < Vary: X-HTTP-Method-Override
 16 < Content-Type: application/json; charset=utf-8
 16 < Content-Length: 164
-16 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-16 < Date: Sun, 31 Mar 2024 18:33:16 GMT
+16 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+16 < Date: Sun, 31 Mar 2024 19:00:37 GMT
 16 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:16.148 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:16.148 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:17.215 [main] DEBUG com.intuit.karate - request:
-17 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:37.482 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:37.482 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:38.489 [main] DEBUG com.intuit.karate - request:
+17 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 17 > Content-Type: application/json; charset=UTF-8
 17 > Content-Length: 60
 17 > Host: localhost:4723
@@ -359,22 +359,22 @@
 17 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:17.308 [main] DEBUG com.intuit.karate - response time in milliseconds: 93
+14:00:38.533 [main] DEBUG com.intuit.karate - response time in milliseconds: 44
 17 < 500
 17 < X-Powered-By: Express
 17 < Vary: X-HTTP-Method-Override
 17 < Content-Type: application/json; charset=utf-8
 17 < Content-Length: 164
-17 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-17 < Date: Sun, 31 Mar 2024 18:33:17 GMT
+17 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+17 < Date: Sun, 31 Mar 2024 19:00:38 GMT
 17 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:17.310 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:17.310 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:17.310 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : #com.bs.droidaction:id/nameTextView
-13:33:17.312 [main] DEBUG com.intuit.karate - request:
-18 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:38.534 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:38.535 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:38.535 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : #com.bs.droidaction:id/nameTextView
+14:00:38.536 [main] DEBUG com.intuit.karate - request:
+18 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 18 > Content-Type: application/json; charset=UTF-8
 18 > Content-Length: 74
 18 > Host: localhost:4723
@@ -383,21 +383,21 @@
 18 > Accept-Encoding: gzip,deflate
 {"using":"xpath","value":"\/\/android.widget.TextView[@text='KarateDSL']"}
 
-13:33:17.360 [main] DEBUG com.intuit.karate - response time in milliseconds: 48
+14:00:38.582 [main] DEBUG com.intuit.karate - response time in milliseconds: 45
 18 < 500
 18 < X-Powered-By: Express
 18 < Vary: X-HTTP-Method-Override
 18 < Content-Type: application/json; charset=utf-8
 18 < Content-Length: 164
-18 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-18 < Date: Sun, 31 Mar 2024 18:33:17 GMT
+18 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+18 < Date: Sun, 31 Mar 2024 19:00:38 GMT
 18 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:17.360 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:17.361 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:18.363 [main] DEBUG com.intuit.karate - request:
-19 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:38.583 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:38.583 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:39.589 [main] DEBUG com.intuit.karate - request:
+19 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 19 > Content-Type: application/json; charset=UTF-8
 19 > Content-Length: 74
 19 > Host: localhost:4723
@@ -406,23 +406,23 @@
 19 > Accept-Encoding: gzip,deflate
 {"using":"xpath","value":"\/\/android.widget.TextView[@text='KarateDSL']"}
 
-13:33:18.456 [main] DEBUG com.intuit.karate - response time in milliseconds: 92
+14:00:39.658 [main] DEBUG com.intuit.karate - response time in milliseconds: 68
 19 < 500
 19 < X-Powered-By: Express
 19 < Vary: X-HTTP-Method-Override
 19 < Content-Type: application/json; charset=utf-8
 19 < Content-Length: 164
-19 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-19 < Date: Sun, 31 Mar 2024 18:33:18 GMT
+19 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+19 < Date: Sun, 31 Mar 2024 19:00:39 GMT
 19 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:18.457 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:18.457 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:18.457 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : //android.widget.TextView[@text='KarateDSL']
-13:33:18.457 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - waitUntil (function) - retry #2
-13:33:19.463 [main] DEBUG com.intuit.karate - request:
-20 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:39.659 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:39.659 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:39.659 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : //android.widget.TextView[@text='KarateDSL']
+14:00:39.659 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - waitUntil (function) - retry #2
+14:00:40.662 [main] DEBUG com.intuit.karate - request:
+20 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 20 > Content-Type: application/json; charset=UTF-8
 20 > Content-Length: 60
 20 > Host: localhost:4723
@@ -431,21 +431,21 @@
 20 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:19.531 [main] DEBUG com.intuit.karate - response time in milliseconds: 66
+14:00:40.705 [main] DEBUG com.intuit.karate - response time in milliseconds: 42
 20 < 500
 20 < X-Powered-By: Express
 20 < Vary: X-HTTP-Method-Override
 20 < Content-Type: application/json; charset=utf-8
 20 < Content-Length: 164
-20 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-20 < Date: Sun, 31 Mar 2024 18:33:19 GMT
+20 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+20 < Date: Sun, 31 Mar 2024 19:00:40 GMT
 20 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:19.532 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:19.532 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:20.557 [main] DEBUG com.intuit.karate - request:
-21 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:40.705 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:40.706 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:41.708 [main] DEBUG com.intuit.karate - request:
+21 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 21 > Content-Type: application/json; charset=UTF-8
 21 > Content-Length: 60
 21 > Host: localhost:4723
@@ -454,22 +454,22 @@
 21 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:20.612 [main] DEBUG com.intuit.karate - response time in milliseconds: 55
+14:00:41.765 [main] DEBUG com.intuit.karate - response time in milliseconds: 55
 21 < 500
 21 < X-Powered-By: Express
 21 < Vary: X-HTTP-Method-Override
 21 < Content-Type: application/json; charset=utf-8
 21 < Content-Length: 164
-21 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-21 < Date: Sun, 31 Mar 2024 18:33:20 GMT
+21 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+21 < Date: Sun, 31 Mar 2024 19:00:41 GMT
 21 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:20.615 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:20.615 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:20.616 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : #com.bs.droidaction:id/nameTextView
-13:33:20.617 [main] DEBUG com.intuit.karate - request:
-22 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:41.766 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:41.766 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:41.766 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : #com.bs.droidaction:id/nameTextView
+14:00:41.767 [main] DEBUG com.intuit.karate - request:
+22 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 22 > Content-Type: application/json; charset=UTF-8
 22 > Content-Length: 74
 22 > Host: localhost:4723
@@ -478,21 +478,21 @@
 22 > Accept-Encoding: gzip,deflate
 {"using":"xpath","value":"\/\/android.widget.TextView[@text='KarateDSL']"}
 
-13:33:20.676 [main] DEBUG com.intuit.karate - response time in milliseconds: 57
+14:00:41.819 [main] DEBUG com.intuit.karate - response time in milliseconds: 52
 22 < 500
 22 < X-Powered-By: Express
 22 < Vary: X-HTTP-Method-Override
 22 < Content-Type: application/json; charset=utf-8
 22 < Content-Length: 164
-22 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-22 < Date: Sun, 31 Mar 2024 18:33:20 GMT
+22 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+22 < Date: Sun, 31 Mar 2024 19:00:41 GMT
 22 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:20.677 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:20.677 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:21.685 [main] DEBUG com.intuit.karate - request:
-23 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:41.820 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:41.820 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:42.890 [main] DEBUG com.intuit.karate - request:
+23 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 23 > Content-Type: application/json; charset=UTF-8
 23 > Content-Length: 74
 23 > Host: localhost:4723
@@ -501,23 +501,23 @@
 23 > Accept-Encoding: gzip,deflate
 {"using":"xpath","value":"\/\/android.widget.TextView[@text='KarateDSL']"}
 
-13:33:21.835 [main] DEBUG com.intuit.karate - response time in milliseconds: 149
+14:00:43.013 [main] DEBUG com.intuit.karate - response time in milliseconds: 120
 23 < 500
 23 < X-Powered-By: Express
 23 < Vary: X-HTTP-Method-Override
 23 < Content-Type: application/json; charset=utf-8
 23 < Content-Length: 164
-23 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-23 < Date: Sun, 31 Mar 2024 18:33:21 GMT
+23 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+23 < Date: Sun, 31 Mar 2024 19:00:43 GMT
 23 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:21.837 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:21.837 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:21.838 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : //android.widget.TextView[@text='KarateDSL']
-13:33:21.838 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - waitUntil (function) - retry #3
-13:33:22.842 [main] DEBUG com.intuit.karate - request:
-24 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:43.014 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:43.015 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:43.016 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - failed to locate : //android.widget.TextView[@text='KarateDSL']
+14:00:43.016 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - waitUntil (function) - retry #3
+14:00:44.024 [main] DEBUG com.intuit.karate - request:
+24 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 24 > Content-Type: application/json; charset=UTF-8
 24 > Content-Length: 60
 24 > Host: localhost:4723
@@ -526,19 +526,19 @@
 24 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:22.893 [main] DEBUG com.intuit.karate - response time in milliseconds: 50
+14:00:44.149 [main] DEBUG com.intuit.karate - response time in milliseconds: 125
 24 < 200
 24 < X-Powered-By: Express
 24 < Vary: X-HTTP-Method-Override
 24 < Content-Type: application/json; charset=utf-8
 24 < Content-Length: 199
-24 < ETag: W/"c7-8ow1yK0Tgqwuft2WdPsEPDse73Q"
-24 < Date: Sun, 31 Mar 2024 18:33:22 GMT
+24 < ETag: W/"c7-wggIbcxl3bLpUiXYFk611M293Mk"
+24 < Date: Sun, 31 Mar 2024 19:00:44 GMT
 24 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff00000013","ELEMENT":"00000000-0000-0206-ffff-ffff00000013"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff00000013","ELEMENT":"00000000-0000-023c-ffff-ffff00000013"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:22.898 [main] DEBUG com.intuit.karate - request:
-25 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:44.154 [main] DEBUG com.intuit.karate - request:
+25 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 25 > Content-Type: application/json; charset=UTF-8
 25 > Content-Length: 60
 25 > Host: localhost:4723
@@ -547,19 +547,19 @@
 25 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:22.930 [main] DEBUG com.intuit.karate - response time in milliseconds: 30
+14:00:44.189 [main] DEBUG com.intuit.karate - response time in milliseconds: 35
 25 < 200
 25 < X-Powered-By: Express
 25 < Vary: X-HTTP-Method-Override
 25 < Content-Type: application/json; charset=utf-8
 25 < Content-Length: 199
-25 < ETag: W/"c7-8ow1yK0Tgqwuft2WdPsEPDse73Q"
-25 < Date: Sun, 31 Mar 2024 18:33:22 GMT
+25 < ETag: W/"c7-wggIbcxl3bLpUiXYFk611M293Mk"
+25 < Date: Sun, 31 Mar 2024 19:00:44 GMT
 25 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff00000013","ELEMENT":"00000000-0000-0206-ffff-ffff00000013"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff00000013","ELEMENT":"00000000-0000-023c-ffff-ffff00000013"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:22.953 [main] DEBUG com.intuit.karate - request:
-26 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:44.210 [main] DEBUG com.intuit.karate - request:
+26 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 26 > Content-Type: application/json; charset=UTF-8
 26 > Content-Length: 60
 26 > Host: localhost:4723
@@ -568,37 +568,37 @@
 26 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:22.972 [main] DEBUG com.intuit.karate - response time in milliseconds: 19
+14:00:44.230 [main] DEBUG com.intuit.karate - response time in milliseconds: 20
 26 < 200
 26 < X-Powered-By: Express
 26 < Vary: X-HTTP-Method-Override
 26 < Content-Type: application/json; charset=utf-8
 26 < Content-Length: 199
-26 < ETag: W/"c7-8ow1yK0Tgqwuft2WdPsEPDse73Q"
-26 < Date: Sun, 31 Mar 2024 18:33:22 GMT
+26 < ETag: W/"c7-wggIbcxl3bLpUiXYFk611M293Mk"
+26 < Date: Sun, 31 Mar 2024 19:00:44 GMT
 26 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff00000013","ELEMENT":"00000000-0000-0206-ffff-ffff00000013"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff00000013","ELEMENT":"00000000-0000-023c-ffff-ffff00000013"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:22.973 [main] DEBUG com.intuit.karate - request:
-27 > GET http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element/00000000-0000-0206-ffff-ffff00000013/text
+14:00:44.231 [main] DEBUG com.intuit.karate - request:
+27 > GET http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element/00000000-0000-023c-ffff-ffff00000013/text
 27 > Host: localhost:4723
 27 > Connection: Keep-Alive
 27 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
 27 > Accept-Encoding: gzip,deflate
 
 
-13:33:22.998 [main] DEBUG com.intuit.karate - response time in milliseconds: 24
+14:00:44.244 [main] DEBUG com.intuit.karate - response time in milliseconds: 13
 27 < 200
 27 < X-Powered-By: Express
 27 < Content-Type: application/json; charset=utf-8
 27 < Content-Length: 83
-27 < ETag: W/"53-gXwKBLeXRH8CFot2OqgZN0UTf2E"
-27 < Date: Sun, 31 Mar 2024 18:33:22 GMT
+27 < ETag: W/"53-1Rnz1R5oc+YNNDQvq3FSAbtw0Qc"
+27 < Date: Sun, 31 Mar 2024 19:00:44 GMT
 27 < Connection: keep-alive
-{"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","value":"KarateDSL","status":0}
+{"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","value":"KarateDSL","status":0}
 
-13:33:23.006 [main] DEBUG com.intuit.karate - request:
-28 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:44.251 [main] DEBUG com.intuit.karate - request:
+28 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 28 > Content-Type: application/json; charset=UTF-8
 28 > Content-Length: 64
 28 > Host: localhost:4723
@@ -607,19 +607,19 @@
 28 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/showTextCheckBox"}
 
-13:33:23.026 [main] DEBUG com.intuit.karate - response time in milliseconds: 20
+14:00:44.272 [main] DEBUG com.intuit.karate - response time in milliseconds: 21
 28 < 200
 28 < X-Powered-By: Express
 28 < Vary: X-HTTP-Method-Override
 28 < Content-Type: application/json; charset=utf-8
 28 < Content-Length: 199
-28 < ETag: W/"c7-/QoPniw3i7BZNOQgIMEj/W2aqOc"
-28 < Date: Sun, 31 Mar 2024 18:33:23 GMT
+28 < ETag: W/"c7-AY79iG/5T52yf98dIOeewm/we5Q"
+28 < Date: Sun, 31 Mar 2024 19:00:44 GMT
 28 < Connection: keep-alive
-{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0206-ffff-ffff0000000f","ELEMENT":"00000000-0000-0206-ffff-ffff0000000f"},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-023c-ffff-ffff0000000f","ELEMENT":"00000000-0000-023c-ffff-ffff0000000f"},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:23.028 [main] DEBUG com.intuit.karate - request:
-29 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element/00000000-0000-0206-ffff-ffff0000000f/click
+14:00:44.274 [main] DEBUG com.intuit.karate - request:
+29 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element/00000000-0000-023c-ffff-ffff0000000f/click
 29 > Content-Type: application/json; charset=UTF-8
 29 > Content-Length: 2
 29 > Host: localhost:4723
@@ -628,19 +628,19 @@
 29 > Accept-Encoding: gzip,deflate
 {}
 
-13:33:23.100 [main] DEBUG com.intuit.karate - response time in milliseconds: 71
+14:00:44.953 [main] DEBUG com.intuit.karate - response time in milliseconds: 678
 29 < 200
 29 < X-Powered-By: Express
 29 < Vary: X-HTTP-Method-Override
 29 < Content-Type: application/json; charset=utf-8
 29 < Content-Length: 76
-29 < ETag: W/"4c-gryekC1D06a3cV5cS8KTa77jLIY"
-29 < Date: Sun, 31 Mar 2024 18:33:23 GMT
+29 < ETag: W/"4c-VHlHDwX0uEPHWmbaUEb1sCYm2Mk"
+29 < Date: Sun, 31 Mar 2024 19:00:44 GMT
 29 < Connection: keep-alive
-{"value":null,"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":null,"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 
-13:33:23.108 [main] DEBUG com.intuit.karate - request:
-30 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:44.962 [main] DEBUG com.intuit.karate - request:
+30 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 30 > Content-Type: application/json; charset=UTF-8
 30 > Content-Length: 60
 30 > Host: localhost:4723
@@ -649,21 +649,21 @@
 30 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:23.763 [main] DEBUG com.intuit.karate - response time in milliseconds: 655
+14:00:45.019 [main] DEBUG com.intuit.karate - response time in milliseconds: 57
 30 < 500
 30 < X-Powered-By: Express
 30 < Vary: X-HTTP-Method-Override
 30 < Content-Type: application/json; charset=utf-8
 30 < Content-Length: 164
-30 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-30 < Date: Sun, 31 Mar 2024 18:33:23 GMT
+30 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+30 < Date: Sun, 31 Mar 2024 19:00:45 GMT
 30 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:23.764 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:23.765 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:26.769 [main] DEBUG com.intuit.karate - request:
-31 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:45.020 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:45.020 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:48.025 [main] DEBUG com.intuit.karate - request:
+31 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 31 > Content-Type: application/json; charset=UTF-8
 31 > Content-Length: 60
 31 > Host: localhost:4723
@@ -672,22 +672,22 @@
 31 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:26.828 [main] DEBUG com.intuit.karate - response time in milliseconds: 58
+14:00:48.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 81
 31 < 500
 31 < X-Powered-By: Express
 31 < Vary: X-HTTP-Method-Override
 31 < Content-Type: application/json; charset=utf-8
 31 < Content-Length: 164
-31 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-31 < Date: Sun, 31 Mar 2024 18:33:26 GMT
+31 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+31 < Date: Sun, 31 Mar 2024 19:00:48 GMT
 31 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:26.829 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:26.829 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:26.830 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - optional (locator) - retry #1
-13:33:29.841 [main] DEBUG com.intuit.karate - request:
-32 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:48.109 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:48.109 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:48.110 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - optional (locator) - retry #1
+14:00:51.116 [main] DEBUG com.intuit.karate - request:
+32 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 32 > Content-Type: application/json; charset=UTF-8
 32 > Content-Length: 60
 32 > Host: localhost:4723
@@ -696,21 +696,21 @@
 32 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:29.958 [main] DEBUG com.intuit.karate - response time in milliseconds: 114
+14:00:51.177 [main] DEBUG com.intuit.karate - response time in milliseconds: 60
 32 < 500
 32 < X-Powered-By: Express
 32 < Vary: X-HTTP-Method-Override
 32 < Content-Type: application/json; charset=utf-8
 32 < Content-Length: 164
-32 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-32 < Date: Sun, 31 Mar 2024 18:33:29 GMT
+32 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+32 < Date: Sun, 31 Mar 2024 19:00:51 GMT
 32 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:29.962 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:29.963 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:32.967 [main] DEBUG com.intuit.karate - request:
-33 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:51.180 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:51.180 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:54.188 [main] DEBUG com.intuit.karate - request:
+33 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 33 > Content-Type: application/json; charset=UTF-8
 33 > Content-Length: 60
 33 > Host: localhost:4723
@@ -719,22 +719,22 @@
 33 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:33.059 [main] DEBUG com.intuit.karate - response time in milliseconds: 90
+14:00:54.264 [main] DEBUG com.intuit.karate - response time in milliseconds: 75
 33 < 500
 33 < X-Powered-By: Express
 33 < Vary: X-HTTP-Method-Override
 33 < Content-Type: application/json; charset=utf-8
 33 < Content-Length: 164
-33 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-33 < Date: Sun, 31 Mar 2024 18:33:33 GMT
+33 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+33 < Date: Sun, 31 Mar 2024 19:00:54 GMT
 33 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:33.062 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:33.063 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:33.064 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - optional (locator) - retry #2
-13:33:36.068 [main] DEBUG com.intuit.karate - request:
-34 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:54.265 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:54.265 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:00:54.266 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - optional (locator) - retry #2
+14:00:57.283 [main] DEBUG com.intuit.karate - request:
+34 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 34 > Content-Type: application/json; charset=UTF-8
 34 > Content-Length: 60
 34 > Host: localhost:4723
@@ -743,21 +743,21 @@
 34 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:36.116 [main] DEBUG com.intuit.karate - response time in milliseconds: 48
+14:00:57.393 [main] DEBUG com.intuit.karate - response time in milliseconds: 107
 34 < 500
 34 < X-Powered-By: Express
 34 < Vary: X-HTTP-Method-Override
 34 < Content-Type: application/json; charset=utf-8
 34 < Content-Length: 164
-34 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-34 < Date: Sun, 31 Mar 2024 18:33:36 GMT
+34 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+34 < Date: Sun, 31 Mar 2024 19:00:57 GMT
 34 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:36.117 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:36.117 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:39.128 [main] DEBUG com.intuit.karate - request:
-35 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:00:57.397 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:00:57.397 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:01:00.431 [main] DEBUG com.intuit.karate - request:
+35 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 35 > Content-Type: application/json; charset=UTF-8
 35 > Content-Length: 60
 35 > Host: localhost:4723
@@ -766,22 +766,22 @@
 35 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:39.227 [main] DEBUG com.intuit.karate - response time in milliseconds: 97
+14:01:01.084 [main] DEBUG com.intuit.karate - response time in milliseconds: 653
 35 < 500
 35 < X-Powered-By: Express
 35 < Vary: X-HTTP-Method-Override
 35 < Content-Type: application/json; charset=utf-8
 35 < Content-Length: 164
-35 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-35 < Date: Sun, 31 Mar 2024 18:33:39 GMT
+35 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+35 < Date: Sun, 31 Mar 2024 19:01:01 GMT
 35 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:39.230 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:39.230 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:39.231 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - optional (locator) - retry #3
-13:33:42.239 [main] DEBUG com.intuit.karate - request:
-36 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:01:01.086 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:01:01.086 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:01:01.087 [main] DEBUG c.i.k.d.appium.MobileDriverOptions - optional (locator) - retry #3
+14:01:04.099 [main] DEBUG com.intuit.karate - request:
+36 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 36 > Content-Type: application/json; charset=UTF-8
 36 > Content-Length: 60
 36 > Host: localhost:4723
@@ -790,21 +790,21 @@
 36 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:42.281 [main] DEBUG com.intuit.karate - response time in milliseconds: 40
+14:01:04.178 [main] DEBUG com.intuit.karate - response time in milliseconds: 78
 36 < 500
 36 < X-Powered-By: Express
 36 < Vary: X-HTTP-Method-Override
 36 < Content-Type: application/json; charset=utf-8
 36 < Content-Length: 164
-36 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-36 < Date: Sun, 31 Mar 2024 18:33:42 GMT
+36 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+36 < Date: Sun, 31 Mar 2024 19:01:04 GMT
 36 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:42.282 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:42.282 [main] WARN  c.i.k.d.appium.android_1711909974545 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:45.292 [main] DEBUG com.intuit.karate - request:
-37 > POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
+14:01:04.180 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:01:04.180 [main] WARN  c.i.k.d.appium.android_1711911616201 - locator failed, will retry once: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:01:07.189 [main] DEBUG com.intuit.karate - request:
+37 > POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
 37 > Content-Type: application/json; charset=UTF-8
 37 > Content-Length: 60
 37 > Host: localhost:4723
@@ -813,35 +813,35 @@
 37 > Accept-Encoding: gzip,deflate
 {"using":"id","value":"com.bs.droidaction:id\/nameTextView"}
 
-13:33:45.392 [main] DEBUG com.intuit.karate - response time in milliseconds: 99
+14:01:07.289 [main] DEBUG com.intuit.karate - response time in milliseconds: 98
 37 < 500
 37 < X-Powered-By: Express
 37 < Vary: X-HTTP-Method-Override
 37 < Content-Type: application/json; charset=utf-8
 37 < Content-Length: 164
-37 < ETag: W/"a4-FHOW59ntTGX39oCMedGufk5YVD8"
-37 < Date: Sun, 31 Mar 2024 18:33:45 GMT
+37 < ETag: W/"a4-YxmHnH2p9ESblQZVwMvGFw48q80"
+37 < Date: Sun, 31 Mar 2024 19:01:07 GMT
 37 < Connection: keep-alive
-{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
+{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
 
-13:33:45.393 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}, request: POST http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4/element
-13:33:45.394 [main] ERROR c.i.k.d.appium.android_1711909974545 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4"}
-13:33:45.397 [main] WARN  c.i.k.d.appium.MobileDriverOptions - optional (locator): failed after 3 retries and 22287 milliseconds
-13:33:45.408 [main] DEBUG com.intuit.karate - request:
-38 > DELETE http://localhost:4723/wd/hub/session/26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4
+14:01:07.291 [main] WARN  com.intuit.karate - http response code: 500, response: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}, request: POST http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319/element
+14:01:07.292 [main] ERROR c.i.k.d.appium.android_1711911616201 - locator failed twice: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319"}
+14:01:07.306 [main] WARN  c.i.k.d.appium.MobileDriverOptions - optional (locator): failed after 3 retries and 22333 milliseconds
+14:01:07.326 [main] DEBUG com.intuit.karate - request:
+38 > DELETE http://localhost:4723/wd/hub/session/5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319
 38 > Host: localhost:4723
 38 > Connection: Keep-Alive
 38 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
 38 > Accept-Encoding: gzip,deflate
 
 
-13:33:46.446 [main] DEBUG com.intuit.karate - response time in milliseconds: 1035
+14:01:08.214 [main] DEBUG com.intuit.karate - response time in milliseconds: 886
 38 < 200
 38 < X-Powered-By: Express
 38 < Content-Type: application/json; charset=utf-8
 38 < Content-Length: 76
-38 < ETag: W/"4c-gryekC1D06a3cV5cS8KTa77jLIY"
-38 < Date: Sun, 31 Mar 2024 18:33:46 GMT
+38 < ETag: W/"4c-VHlHDwX0uEPHWmbaUEb1sCYm2Mk"
+38 < Date: Sun, 31 Mar 2024 19:01:08 GMT
 38 < Connection: keep-alive
-{"value":null,"sessionId":"26ed8ebd-de0f-431e-8d5f-dd8cf1003fb4","status":0}
+{"value":null,"sessionId":"5aa918cb-d2b8-4cb0-a07e-b0b6cfd81319","status":0}
 

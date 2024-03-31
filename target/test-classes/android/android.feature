@@ -3,9 +3,11 @@ Feature: android test
   Background: App Preset
     * configure driver = { type: 'android', webDriverPath : "/wd/hub", start: false, httpConfig :{ readTimeout: 120000 }}
 
-
+  @android
   Scenario: android mobile app UI tests
+  capabilities.setCapability("app", app.getAbsolutePath());
     Given driver { webDriverSession: { desiredCapabilities : "#(android.desiredConfig)"} }
+
     #And driver { webDriverSession: { desiredCapabilities:"app:classpath:src/test/java/resources/UiDemo.apk)"}}
     And driver.click('#com.bs.droidaction:id/showTextCheckBox')
     And driver.clear('#com.bs.droidaction:id/showTextOnDelay').input("10000")

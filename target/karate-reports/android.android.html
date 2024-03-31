@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-03-31 01:33:46 p. m.</div>
+    <div>2024-03-31 02:01:08 p. m.</div>
   </div>
 </div>
 
@@ -72,16 +72,16 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <div class="scenario-heading" id="[1:7]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">android</a>
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[1:7]</span>
                 <span class="scenario-name">android mobile app UI tests</span>
-                <span></span>
+                <span>capabilities.setCapability(&quot;app&quot;, app.getAbsolutePath());</span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>50821</span>
+              <span>ms:</span>&nbsp;<span>51146</span>
             </div>
           </div>
           <div class="step-row">
@@ -125,14 +125,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.8">
-      <div class="step-ref passed">8</div>
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>driver { webDriverSession: { desiredCapabilities : &quot;#(android.desiredConfig)&quot;} }</span>
       </div>
     </div>
-    <div class="time-cell passed">14339</div>
+    <div class="time-cell passed">14623</div>
   </div>
 
    
@@ -160,70 +160,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.10">
-      <div class="step-ref passed">10</div>
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>driver.click(&#39;#com.bs.droidaction:id/showTextCheckBox&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">826</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.11">
-      <div class="step-ref passed">11</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>driver.clear(&#39;#com.bs.droidaction:id/showTextOnDelay&#39;).input(&quot;10000&quot;)</span>
-      </div>
-    </div>
-    <div class="time-cell passed">1247</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.12">
-      <div class="step-ref passed">12</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>driver.input(&#39;#com.bs.droidaction:id/editTextBox&#39;, &quot;KarateDSL&quot;)</span>
-      </div>
-    </div>
-    <div class="time-cell passed">554</div>
+    <div class="time-cell passed">349</div>
   </div>
 
    
@@ -248,10 +192,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">13</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>driver.click(&#39;#com.bs.droidaction:id/showTextCheckBox&#39;)</span>
+        <span>And</span>&nbsp;<span>driver.clear(&#39;#com.bs.droidaction:id/showTextOnDelay&#39;).input(&quot;10000&quot;)</span>
       </div>
     </div>
-    <div class="time-cell passed">564</div>
+    <div class="time-cell passed">1229</div>
   </div>
 
    
@@ -276,10 +220,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">14</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>retry(10, 1000).waitForAny(&quot;#com.bs.droidaction:id/nameTextView&quot;, &quot;//android.widget.TextView[@text=&#39;KarateDSL&#39;]&quot;)</span>
+        <span>And</span>&nbsp;<span>driver.input(&#39;#com.bs.droidaction:id/editTextBox&#39;, &quot;KarateDSL&quot;)</span>
       </div>
     </div>
-    <div class="time-cell passed">10811</div>
+    <div class="time-cell passed">561</div>
   </div>
 
    
@@ -288,16 +232,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.14">13:33:13.771 failed to locate : #com.bs.droidaction:id/nameTextView
-13:33:15.089 failed to locate : //android.widget.TextView[@text=&#39;KarateDSL&#39;]
-13:33:15.090 waitUntil (function) - retry #1
-13:33:17.310 failed to locate : #com.bs.droidaction:id/nameTextView
-13:33:18.457 failed to locate : //android.widget.TextView[@text=&#39;KarateDSL&#39;]
-13:33:18.457 waitUntil (function) - retry #2
-13:33:20.616 failed to locate : #com.bs.droidaction:id/nameTextView
-13:33:21.838 failed to locate : //android.widget.TextView[@text=&#39;KarateDSL&#39;]
-13:33:21.838 waitUntil (function) - retry #3
-</div>   
+     
 
   
 
@@ -313,10 +248,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">15</div>
       
       <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>match driver.text(&#39;#com.bs.droidaction:id/nameTextView&#39;) == &#39;KarateDSL&#39;</span>
+        <span>And</span>&nbsp;<span>driver.click(&#39;#com.bs.droidaction:id/showTextCheckBox&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">64</div>
+    <div class="time-cell passed">560</div>
   </div>
 
    
@@ -341,10 +276,47 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">16</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>driver.click(&#39;#com.bs.droidaction:id/showTextCheckBox&#39;)</span>
+        <span>And</span>&nbsp;<span>retry(10, 1000).waitForAny(&quot;#com.bs.droidaction:id/nameTextView&quot;, &quot;//android.widget.TextView[@text=&#39;KarateDSL&#39;]&quot;)</span>
       </div>
     </div>
-    <div class="time-cell passed">96</div>
+    <div class="time-cell passed">10678</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.16">14:00:35.208 failed to locate : #com.bs.droidaction:id/nameTextView
+14:00:36.437 failed to locate : //android.widget.TextView[@text=&#39;KarateDSL&#39;]
+14:00:36.437 waitUntil (function) - retry #1
+14:00:38.535 failed to locate : #com.bs.droidaction:id/nameTextView
+14:00:39.659 failed to locate : //android.widget.TextView[@text=&#39;KarateDSL&#39;]
+14:00:39.659 waitUntil (function) - retry #2
+14:00:41.766 failed to locate : #com.bs.droidaction:id/nameTextView
+14:00:43.016 failed to locate : //android.widget.TextView[@text=&#39;KarateDSL&#39;]
+14:00:43.016 waitUntil (function) - retry #3
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match driver.text(&#39;#com.bs.droidaction:id/nameTextView&#39;) == &#39;KarateDSL&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">57</div>
   </div>
 
    
@@ -365,14 +337,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.17">
-      <div class="step-ref passed">17</div>
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>assert (optional(&#39;#com.bs.droidaction:id/nameTextView&#39;).present != true)</span>
+        <span>And</span>&nbsp;<span>driver.click(&#39;#com.bs.droidaction:id/showTextCheckBox&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">22306</div>
+    <div class="time-cell passed">704</div>
   </div>
 
    
@@ -381,10 +353,38 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.17">13:33:26.830 optional (locator) - retry #1
-13:33:33.064 optional (locator) - retry #2
-13:33:39.231 optional (locator) - retry #3
-13:33:45.397 optional (locator): failed after 3 retries and 22287 milliseconds
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert (optional(&#39;#com.bs.droidaction:id/nameTextView&#39;).present != true)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">22370</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">14:00:48.111 optional (locator) - retry #1
+14:00:54.267 optional (locator) - retry #2
+14:01:01.087 optional (locator) - retry #3
+14:01:07.306 optional (locator): failed after 3 retries and 22333 milliseconds
 </div>   
 
   
