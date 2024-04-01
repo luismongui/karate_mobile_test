@@ -5,10 +5,7 @@ Feature: android test
 
   @android
   Scenario: android mobile app UI tests
-  capabilities.setCapability("app", app.getAbsolutePath());
     Given driver { webDriverSession: { desiredCapabilities : "#(android.desiredConfig)"} }
-
-    #And driver { webDriverSession: { desiredCapabilities:"app:classpath:src/test/java/resources/UiDemo.apk)"}}
     And driver.click('#com.bs.droidaction:id/showTextCheckBox')
     And driver.clear('#com.bs.droidaction:id/showTextOnDelay').input("10000")
     And driver.input('#com.bs.droidaction:id/editTextBox', "KarateDSL")
