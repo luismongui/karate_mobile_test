@@ -6,7 +6,7 @@ class AndroidTest {
 
     @Karate.Test
     public Karate test() {
+
         return Karate.run("classpath:android/android.feature");
     }
-
 }
